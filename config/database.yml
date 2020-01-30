@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  encoding: pictgram
-  poll: 5
+  encoding: unicode
+  pool: 5
